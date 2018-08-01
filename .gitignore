@@ -1,2 +1,5 @@
 // ignore some files when update
+// all the files in the folder dog_vs_cat
 dog_vs_cat/
+// all the files have the last name .tfrecords
+*.tfrecords
