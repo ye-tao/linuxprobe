@@ -122,7 +122,7 @@ writer.close()
 sys.stdout.flush()
 
 # write data into a TFRecords file
-train_filename = 'test.tfrecords'
+test_filename = 'test.tfrecords'
 
 # 1_open a tfrecords file using tf.python_io.TFRecordWriter
 writer = tf.python_io.TFRecordWriter(test_filename)
